@@ -1,0 +1,13 @@
+{
+  "name": "knip-npx-package-arg-issue",
+  "version": "1.0.0",
+  "description": "A reproduction of the knip issue involving npx's \"package\" argument",
+  "license": "ISC",
+  "author": "Jonatas Miguel",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "knip:with-arg": "npx --package=knip@^5 knip --dependencies",
+    "knip:without-arg": "npx knip@^5 --dependencies"
+  }
+}
