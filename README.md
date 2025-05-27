@@ -2,7 +2,7 @@
 
 The [documentation](https://docs.npmjs.com/cli/v11/commands/npx#:~:text=Whatever%20packages%20are,packages%20are%20available.) for `npx` describes an alternative way of specifying a package and it's version to help deal with situations where the name of a binary from some package may not match the package name. It's also possible to provide multiple packages to `npx` via repeated uses of this argument. This is useful for cases where a package may require multiple other packages to be specified at the same time to function properly.
 
-`knip` successfully identifies the classic `npx` use case ignores it when reporting missing dependencies. But, for this newer use case it seems to falsely report missing dependencies.
+`knip` successfully identifies the classic `npx` use case and ignores it when reporting missing dependencies. But, for this newer use case it seems to falsely report missing dependencies.
 
 ## Repo Structure
 
