@@ -7,6 +7,7 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
+    "use-yeoman": "npx --package yo@^5 -- yo --help",
     "knip:with-arg": "npx --package=knip@^5 knip --dependencies",
     "knip:without-arg": "npx knip@^5 --dependencies"
   }
